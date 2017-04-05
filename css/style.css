@@ -1,0 +1,98 @@
+#myphoto{
+	position: absolute;
+	left: 30px;
+	margin: 50px;
+	/*border-radius: 100%;*/
+	padding: 5px;
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+
+}
+
+.paper {
+  background: #ffff99;
+
+  padding: 20px;
+  position: relative;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.paper,
+.paper::before,
+.paper::after {0
+  /* Styles to distinguish sheets from one another */
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.25);
+  border: 1px solid #bbb;
+}
+
+.paper::before,
+.paper::after {
+  content: "";
+  position: absolute;
+  height: 75%;
+  width: 90%;
+  /*background-color: #eee;*/
+}
+
+.paper::before {
+  right: 10px;
+  top: 0;
+  transform: rotate(-1deg);
+  z-index: -1;
+}
+.paper::before,
+.paper::after {
+  top: 5px;
+  right: -5px;
+  transform: rotate(1deg);
+  z-index: -2;
+}
+h1{
+	font-family: 'Fjalla One', sans-serif;
+}
+.container-fluid{
+  background: #2ECC71;
+}
+
+#name{
+  color: #ff3300;
+  font-family: 'Great Vibes', cursive;
+
+}
+.am{
+  text-align: center;
+  margin: 50px;
+  position 
+}
+body{
+  background-image: url("../img/land.jpg");
+  background-size: 100%;
+}
+#home{
+  background:rgb(0,255,255);
+}
+
+#proj{
+  background: #b8b894
+  ;
+}
+.btn.btn-primary{
+  position: right;
+}
+.custom{
+  position: right;
+  width: 300px;
+}
+#social-media{
+  position: fixed;
+  top: 163px;
+  right: 20px;
+  width: 40px;
+  z-index: 2;
+}
+#result{
+  padding-left: 20px; 
+}
