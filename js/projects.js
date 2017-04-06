@@ -1,6 +1,7 @@
 var current_url='https://api.github.com/users/shadiKhaled/repos?sort=updated&per_page=5'
 $(document).ready(function(){
 	bindCurrentClickEvent();
+	favSubmitted();
 })
 
 function bindCurrentClickEvent (){
@@ -28,4 +29,19 @@ function formatDate(date) {
   minutes = minutes < 10 ? '0'+minutes : minutes;
   var strTime = hours + ':' + minutes + ' ' + ampm;
   return date.getMonth()+1 + "/" + date.getDate() + "/" + date.getFullYear() + "  " + strTime;
+}
+// ----------------------------------------------------------------------------
+function favSubmitted() {
+	$("#fav").click(function(evant){
+		event.preventDefault();
+		var favName= $("#favName").val();
+		var favLang= $("#favLang").val();
+		var favUpdate= $("#favUpdate").val();
+		getAjax(favName,favLang,favUpdate);
+		event.stopPropagation();
+	})
+}
+
+function getAjax(favName,favLang,favUpdate){
+	
 }
