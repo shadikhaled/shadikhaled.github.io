@@ -11,7 +11,7 @@ function getSkills(){
 
 
 function showSkills(skills) {
-	$.each(sills,function(index,skill) {
+	$.each(skills,function(index,skill) {
 		var skill_item = "<div><h3><i class='"+skill.cssclass +"'></i>"+skill.name+"</h3>"+"<p>"+skill.description +"</p></div>";
 		$("#skills").append(skill_item)
 
