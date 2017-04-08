@@ -8,13 +8,7 @@ function getSkills(){
 	});
 }
 	
-function getCurrentRepositories(e){
-	$('#result').html('')
-	$('#result').show();
-	$.get(current_url,function(repos){
-		showCurrentRepositories(repos)
-	})
-	 
+
 
 function showSkills(skills) {
 	$.each(sills,function(index,skill) {
