@@ -1,3 +1,27 @@
-[{
-	name:"shadi0006",
-}]
+[  {
+		"name": "artist-song-modules-re-coded-000",
+		"language": "Ruby",
+		"fav_url": "https://github.com/shadikhaled/artist-song-modules-re-coded-000"
+	},
+	{
+		"name": "bootstrap-navbar-code-along-re-coded-000",
+		"language": "HTML",
+		"fav_url": "https://github.com/shadikhaled/bootstrap-navbar-code-along-re-coded-000"           
+	},
+		{
+		"name": "CSS-Styling-re-coded-000",
+		"language": "HTML",
+		"fav_url": "https://github.com/shadikhaled/CSS-Styling-re-coded-000"           
+	},
+		{
+		"name": "shadikhaled.github.io",
+		"language": "HTML",
+		"fav_url": "https://github.com/shadikhaled/shadikhaled.github.io"           
+	},
+		{
+		"name": "html-issue-bot-9000-re-coded-000",
+		"language": "HTML",
+		"fav_url": "https://github.com/shadikhaled/html-issue-bot-9000-re-coded-000"           
+	}
+	
+]

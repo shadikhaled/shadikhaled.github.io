@@ -10,9 +10,40 @@
 	transform: rotate(90deg);
 
 }
+#about{
+  background: #a2a276;
+}
+#more{
+  background: #5c5c3d;
+}
+.frstp{
+
+    width: 1000px;
+    height:250px;
+    background-color:#a3c2c2;
+ 
+    box-shadow: 10px 10px 5px #000122;
+
+
+  /*background: #ffff99;*/
+
+  padding: 20px;
+  position: relative;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
 
 .paper {
-  background: #ffff99;
+  
+
+    width: 1000px;
+    height:160px;
+    background-color:#a3c2c2;
+ 
+    box-shadow: 10px 10px 5px #000122;
+
+
+  /*background: #ffff99;*/
 
   padding: 20px;
   position: relative;
@@ -54,7 +85,9 @@ h1{
 	font-family: 'Fjalla One', sans-serif;
 }
 .container-fluid{
-  background: #2ECC71;
+  background:#993300
+
+;
 }
 
 #name{
@@ -64,35 +97,81 @@ h1{
 }
 .am{
   text-align: center;
-  margin: 50px;
+  margin: 100px;
   position 
 }
+.wel{
+  text-align: center;
+  margin-left: 45px;
+font-family: 'Oleo Script', cursive;
+
+}
 body{
-  background-image: url("../img/land.jpg");
+  /*background-image: url("../img/land.jpg");*/
   background-size: 100%;
+    background:#c2c2d6
+
 }
 #home{
-  background:rgb(0,255,255);
+  background:#c2c2d6
+
+
+
+;
 }
 
 #proj{
   background: #b8b894
   ;
 }
-.btn.btn-primary{
-  position: right;
-}
-.custom{
-  position: right;
-  width: 300px;
-}
+
 #social-media{
   position: fixed;
-  top: 163px;
-  right: 20px;
-  width: 40px;
+  top: 400px;
+  right: 40%;
+  width: 175px;
   z-index: 2;
+  /*margin:20px;*/
+  /*padding-top: 20px;*/
 }
 #result{
-  padding-left: 20px; 
+  background-color:  #00b3b3;
+  position: absolute;
+  left: 180px;
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: 0 0 25px black;
+}
+#click{
+  text-align: center;
+  margin: 30px
+}
+#fav{
+  width:500px;
+}
+#btnCurrent{
+  width: 500px;
+}
+#favresult{
+  background-color:  #ff8080;
+  position: absolute;
+  left: 700px;
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+    border-width: 2px;
+  border-style: solid;
+  box-shadow: 0 0 25px black;
+}
+#fav_name{
+  color: white;
+  font-size: 20px;
+}
+#lan{
+  float: right;
+  position: relative;
+  right: 30px
 }
