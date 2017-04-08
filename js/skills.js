@@ -2,7 +2,7 @@ $$(document).ready(function(){
 	getSkills();
 })
 function getSkills(){
-	skills_url = “skills.json”
+	skills_url = "skills.json"
 	$.get(skills_url,function(data){
 		showSkills(data)
 	});
