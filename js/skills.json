@@ -1,5 +1,5 @@
-{
-	"skills":[
+
+	[
 		{
 			"name":"HTML",
 			"cssclass":"fa fa-html5",
@@ -26,4 +26,3 @@
 			"description":" is a JavaScript Library, greatly simplifies JavaScript programming, and jQuery is easy to learn."
 		}
 	]
-}
