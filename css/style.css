@@ -1,14 +1,14 @@
 #myphoto{
 	position: absolute;
 	left: 30px;
-	margin: 50px;
-	/*border-radius: 100%;*/
-	padding: 5px;
-	-webkit-transform: rotate(90deg);
-	-ms-transform: rotate(90deg);
-	-o-transform: rotate(90deg);
-	transform: rotate(90deg);
-
+  /*margin: 20px;*/
+  /*border-radius: 100%;*/
+  /*padding: 5px;*/
+  -webkit-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+  transform: rotate(-10deg);
+  top:135px;
 }
 #about{
   background: #a2a276;
@@ -18,11 +18,11 @@
 }
 .frstp{
 
-    width: 1000px;
-    height:250px;
-    background-color:#a3c2c2;
- 
-    box-shadow: 10px 10px 5px #000122;
+  width: 1000px;
+  height:250px;
+  background-color:#a3c2c2;
+
+  box-shadow: 10px 10px 5px #000122;
 
 
   /*background: #ffff99;*/
@@ -34,13 +34,13 @@
 }
 
 .paper {
-  
 
-    width: 1000px;
-    height:160px;
-    background-color:#a3c2c2;
- 
-    box-shadow: 10px 10px 5px #000122;
+
+  width: 1000px;
+  height:175px;
+  background-color:#a3c2c2;
+
+  box-shadow: 10px 10px 5px #000122;
 
 
   /*background: #ffff99;*/
@@ -87,7 +87,7 @@ h1{
 .container-fluid{
   background:#993300
 
-;
+  ;
 }
 
 #name{
@@ -103,13 +103,13 @@ h1{
 .wel{
   text-align: center;
   margin-left: 45px;
-font-family: 'Oleo Script', cursive;
+  font-family: 'Oleo Script', cursive;
 
 }
 body{
   /*background-image: url("../img/land.jpg");*/
   background-size: 100%;
-    background:#c2c2d6
+  background:#c2c2d6
 
 }
 #home{
@@ -117,7 +117,7 @@ body{
 
 
 
-;
+  ;
 }
 
 #proj{
@@ -127,10 +127,10 @@ body{
 
 #social-media{
   position: fixed;
-  top: 400px;
+  top: 450px;
   right: 40%;
-  width: 175px;
-  z-index: 2;
+  width: 220px;
+  z-index: 3;
   /*margin:20px;*/
   /*padding-top: 20px;*/
 }
@@ -162,7 +162,7 @@ body{
   margin: 10px;
   padding: 10px;
   width: 400px;
-    border-width: 2px;
+  border-width: 2px;
   border-style: solid;
   box-shadow: 0 0 25px black;
 }
@@ -176,5 +176,5 @@ body{
   right: 30px
 }
 #skills{
-  
+
 }
