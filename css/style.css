@@ -14,7 +14,7 @@
   background: #a2a276;
 }
 #more{
-  background: #5c5c3d;
+  background: #b8b894
 }
 .frstp{
 
@@ -23,10 +23,6 @@
   background-color:#a3c2c2;
 
   box-shadow: 10px 10px 5px #000122;
-
-
-  /*background: #ffff99;*/
-
   padding: 20px;
   position: relative;
   font-size: 20px;
@@ -37,14 +33,21 @@
 
 
   width: 1000px;
-  height:175px;
+  height:200px;
+  background-color:#a3c2c2;
+  box-shadow: 10px 10px 5px #000122;
+  padding: 20px;
+  position: relative;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+.paper2{
+
+  width: 1000px;
+  height:160px;
   background-color:#a3c2c2;
 
   box-shadow: 10px 10px 5px #000122;
-
-
-  /*background: #ffff99;*/
-
   padding: 20px;
   position: relative;
   font-size: 20px;
@@ -85,9 +88,19 @@ h1{
 	font-family: 'Fjalla One', sans-serif;
 }
 .container-fluid{
-  background:#993300
+  background:#993300;
 
-  ;
+}
+.phrase{
+ text-align: center;
+ margin-left: 70px;
+ padding: 20px;
+ font-family: 'Josefin Sans', sans-serif;
+
+}
+.navbar navbar-default{
+    position: fixed;
+
 }
 
 #name{
@@ -97,8 +110,8 @@ h1{
 }
 .am{
   text-align: center;
-  margin: 100px;
-  position 
+  margin: 35px;
+
 }
 .wel{
   text-align: center;
@@ -109,11 +122,11 @@ h1{
 body{
   /*background-image: url("../img/land.jpg");*/
   background-size: 100%;
-  background:#c2c2d6
+  background: #b8b894
 
 }
 #home{
-  background:#c2c2d6
+  background: #b8b894
 
 
 
@@ -134,17 +147,22 @@ body{
   /*margin:20px;*/
   /*padding-top: 20px;*/
 }
-#result{
+#result, #result2 {
   background-color:  #00b3b3;
-  position: absolute;
-  left: 180px;
-  margin: 10px;
-  padding: 10px;
-  width: 400px;
+  /*position: absolute;*/
+  /*left: 180px;*/
+  /*margin: 10px;*/
+  /*padding: 10px;*/
+  /*width: 400px;*/
   border-width: 2px;
   border-style: solid;
   box-shadow: 0 0 25px black;
 }
+
+#result > div, #result2 > div {
+  text-align: center;
+}
+
 #click{
   text-align: center;
   margin: 30px
@@ -156,7 +174,10 @@ body{
   width: 500px;
 }
 #favresult{
-  background-color:  #ff8080;
+  background-color:  #992600
+
+
+  ;
   position: absolute;
   left: 700px;
   margin: 10px;
@@ -176,5 +197,8 @@ body{
   right: 30px
 }
 #skills{
+  padding: 50px;
+  margin-left: 20px;
+  font-family: 'Palanquin Dark', sans-serif;
 
 }
