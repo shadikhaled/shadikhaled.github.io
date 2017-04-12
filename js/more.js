@@ -9,7 +9,7 @@
 // })
 
 var musicVideosURL = "https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyAcrScgzlwyA8u_SwVJ55JTV-HTTMSEHzA&q=Dilshad%20said";
-var codingVideosURL = "";
+var codingVideosURL = "https://www.googleapis.com/youtube/v3/playlists?part=snippet&key=AIzaSyAcrScgzlwyA8u_SwVJ55JTV-HTTMSEHzA&channelId=UCf6CEY4IQitB2Mu348BmR-A";
 
 $(document).ready(function(){
 	getMusicVideos();
@@ -46,7 +46,8 @@ function showCodingVideos(data) {
 	console.log(data)
 	$.each(data.items,function(index,more) {
 		console.log(more)
-		var more_item = "<div><h3>"+more.snippet.title+"</h3>"+"<iframe width='350' height='200' src='https://www.youtube.com/embed/"+more.id.videoId+"'></iframe></div>";
+		var more_item = "<div><h3>"+more.snippet.title+"</h3>"+"<iframe width='350' height='200' src='https://www.youtube.com/embed/"+more.snippet.resourceId.videoId
++"'></iframe></div>";
 		
 		// if (index % 2 === 0) {
 		// 	$("#result").append(more_item)
